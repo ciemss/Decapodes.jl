@@ -54,3 +54,15 @@ def simulate(mesh, operators, hodge=None):
         dynamics_h_hat = torch.matmul(M_star_0_inv, dot_8_2)
 
         findnode(du, "h").values = dynamics_h_hat
+        return du
+    return f
+
+
+
+
+
+
+
+
+
+
